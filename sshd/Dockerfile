@@ -1,5 +1,5 @@
-FROM ubuntu
-MAINTAINER Zef Hemel
+FROM ubuntu:18.04
+MAINTAINER KaptenJansson
 RUN apt-get update
 RUN apt-get install -y openssh-server
 RUN mkdir /var/run/sshd
